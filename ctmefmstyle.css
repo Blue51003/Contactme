@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 15px;
+    padding: 8px;
+}
+.container{
+    background-color: rgba(127, 255, 212, 0.114);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 10px 5px 10px;
+    border: 2px solid rgb(0, 56, 139);
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    color: dodgerblue;
+    border: 1px solid ;
+}
+.element{
+    text-align: center;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+    color: rgba(30, 143, 255, 0.751);
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+textarea{
+    color: rgba(30, 143, 255, 0.751);
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 5px;
+}
+input[type="submit"]{
+    color: rgba(16, 22, 28, 0.751);
+    background-color: rgb(113, 242, 244);
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+input[type="submit"]:hover{
+    background-color: rgb(49, 143, 215);
+}
+@media all and (max-width:2000px) and (min-width:455px) {
+    #fname, #lname{
+        width: 150px;
+    }
+    #email {
+        width: 318px;
+    }
+    #phone{
+        width: 314px;
+    }
+    #subject{
+        width: 370px;
+    }
+    #message{
+        width: 370px;
+    }
+    
+}
+@media all and (max-width:454px) {
+    #fname, #lname{
+        width: 150px;
+    }
+    #email {
+        width: 270px;
+    }
+    #phone{
+        width: 270px;
+    }
+    #subject{
+        width: 270px;
+    }
+    #message{
+        width: 270px;
+    }
+}
